@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How weight are you?"
+        android:textSize="32sp"
+
+        android:layout_margin="10dp"
+        >
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/editWeightId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="weight in kg"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+
+
+        >
+
+    </EditText>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How height are you?"
+        android:textSize="32sp"
+
+        android:layout_margin="10dp"
+        >
+
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <EditText
+            android:id="@+id/editfeetId"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="feet"
+            android:inputType="numberDecimal"
+            android:padding="15dp"
+
+
+            >
+
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/editinchId"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="inch"
+            android:inputType="numberDecimal"
+            android:padding="15dp"
+
+
+            >
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/ButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate BMI INDEX"
+        >
+
+    </Button>
+
+
+    <TextView
+        android:id="@+id/tvresultId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result Here:"
+        android:textSize="32sp"
+
+        android:layout_margin="10dp"
+        >
+
+
+    </TextView>
+
+
+
+</LinearLayout>
